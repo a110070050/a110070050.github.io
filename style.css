@@ -1,22 +1,46 @@
 body{
+    background: #FDF5E6;
+}
+
+body > header > h3{
+    padding: 0.5cm 0cm 0.3cm;  
+    text-align: center;
+}
+
+section{
 	width: 60%;
 	height: 60%;
     margin: 0 auto;
 }
 
-
-
-h1{color: #003399;
+p{
+    color:#3b3247;
 }
 
-p{color: #656565;
+
+h1{color: #2C6975;
+   text-align: center;
 }
 
-nav > ul {
+
+h3 {
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+figure{
+    text-align:center;
+}
+
+nav{
     background-color: rgb(230, 230, 230);
     list-style: none;   /* 移除項目符號 */
     margin: 0;
     padding: 0;
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
 }
 
 nav a {
@@ -25,23 +49,11 @@ nav a {
     font-size: 1.2rem;
     padding: 10px;
     text-decoration: none;  /* 移除超連結底線 */
+    text-align: center;
 }
 
 /* 滑鼠移到 <a> 時變成深底淺色 */
-nav li:hover {
-    background-color: rgb(115, 115, 115);
-    color: white;
+nav li a:hover {
+    background-color: #4682B4;
+    color: rgb(230, 230, 230);
 }
-
-
-
-.inline-block-nav {
-    text-align: center;
-    font-size: 0;   /* 移除 <li> 之間的空隙 */
-}
-
-.inline-block-nav > li {
-    display: inline-block;
-}
-
-
