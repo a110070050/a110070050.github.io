@@ -1,0 +1,128 @@
+body{
+    background: #FDF5E6;
+}
+
+body > header > h3{
+    padding: 0.5cm 0cm 0.3cm;  
+    text-align: center;
+}
+
+section{
+	width: 60%;
+	height: 60%;
+    margin: 0 auto;
+}
+
+p{
+    color:#3b3247;
+}
+
+
+h1{
+    color: #2C6975;
+    text-align: center;
+    padding: 16px 0px 0px;
+}
+
+
+h3 {
+    text-align: center;
+    padding: 0px 0px 2px;
+}
+
+h6{
+    text-align: center;
+}
+
+figure{
+    text-align:center;
+}
+
+nav{
+    background-color: rgb(230, 230, 230);
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+    text-align: center;
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav li a:hover {
+    background-color: #4682B4;
+    color: rgb(230, 230, 230);
+}
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+.bob-container{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bob-row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bob-row:before,.bob-row:after{
+  display: table;
+  content: " ";  
+}
+
+.bob-row:after{
+  clear: both;
+}
+
+.bob-3item{
+  width: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float:left;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.bob-3item img{
+    width:50%;
+    display: block;
+}
+
+@media (min-width: 768px) {
+  .bob-container {
+    width: 750px;
+  }
+  .bob-3item{
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 992px) {
+  .bob-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .bob-container {
+    width: 1170px;
+  }
+}
+
+div{
+    height:43px;
+    text-align: center;
+}
