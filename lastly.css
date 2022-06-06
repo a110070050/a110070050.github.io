@@ -15,23 +15,28 @@ section{
 
 p{
     color:#3b3247;
+    padding: 10px  0px;
 }
 
 
 h1{
     color: #2C6975;
     text-align: center;
-    padding: 16px 0px 0px;
-}
-
-
-h3 {
-    text-align: center;
-    padding: 0px 0px 2px;
+    padding: 2px 0px 0px;
 }
 
 h6{
     text-align: center;
+    padding: 0px 0px 52px;
+}
+
+iframe{
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+    padding: 22px  0px 0px;
 }
 
 nav{
@@ -55,58 +60,4 @@ nav a {
 nav li a:hover {
     background-color: #4682B4;
     color: rgb(230, 230, 230);
-}
-
-
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-     box-sizing: border-box;
-}
-
-.bob-container{
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.bob-row{
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.bob-4item{
-  width:50%;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  float:left;
-}
-
-.bob-4item img{
-  width:100%;
-  display: block;
-}
-
-@media (min-width: 768px) {
-  .bob-4item{
-    width:25%;
-  }
-}
-
-@media (min-width: 992px) {
-  .bob-4item{
-    width:25%;
-  }
-}
-@media (min-width: 1200px) {
-  .bob-4item{
-    width:25%;
-  }
-}
-
-div{
-    height:43px;
-    text-align: center;
 }
