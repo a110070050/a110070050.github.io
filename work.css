@@ -1,5 +1,6 @@
 body{
     background: #FDF5E6;
+    margin: 0 auto;
 }
 
 body > header > h3{
@@ -15,48 +16,32 @@ section{
 
 p{
     color:#3b3247;
+    padding: 0px 0px 16px;
 }
 
 
-h1{
+h1{ 
     color: #2C6975;
     text-align: center;
-    padding: 16px 0px 0px;
+    padding: 22px 0px 0px;
 }
 
-
-h3 {
-    text-align: center;
-    padding: 0px 0px 2px;
-}
-
-h6{
+h3{
     text-align: center;
 }
 
-nav{
-    background-color: rgb(230, 230, 230);
-    list-style: none;   /* 移除項目符號 */
-    margin: 0;
-    padding: 0;
-    font-size: 0;   /* 移除 <li> 之間的空隙 */
+h5{
+    padding: 0px 0px 16px;
+    text-align: center;
 }
 
-nav a {
-    color: inherit; /* 移除超連結顏色 */
-    display: block; /* 讓 <a> 填滿 <li> */
-    font-size: 1.2rem;
-    padding: 10px;
+figure{
+    text-align:center;
+}
+
+div a {
     text-decoration: none;  /* 移除超連結底線 */
-    text-align: center;
 }
-
-/* 滑鼠移到 <a> 時變成深底淺色 */
-nav li a:hover {
-    background-color: #4682B4;
-    color: rgb(230, 230, 230);
-}
-
 
 *{
     -webkit-box-sizing: border-box;
@@ -66,8 +51,8 @@ nav li a:hover {
 
 .bob-container{
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: -2000px;
+  padding-right: 250px;
 }
 
 .bob-row{
@@ -75,7 +60,16 @@ nav li a:hover {
   margin-left: -15px;
 }
 
-.bob-4item{
+.bob-row:before,.bob-row:after{
+  display: table;
+  content: " ";  
+}
+
+.bob-row:after{
+  clear: both;
+}
+
+.bob-2item{
   width:50%;
   position: relative;
   min-height: 1px;
@@ -84,30 +78,28 @@ nav li a:hover {
   float:left;
 }
 
-.bob-4item img{
+.bob-2item img{
   width:100%;
   display: block;
-  float: none;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-  .bob-4item{
-    width:25%;
+  .bob-container {
+    width: 750px;
   }
-}
-
+    
 @media (min-width: 992px) {
-  .bob-4item{
-    width:25%;
+  .bob-container {
+    width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .bob-4item{
-    width:25%;
+  .bob-container {
+    width: 1170px;
   }
 }
 
 div{
-    height:43px;
-    text-align: center;
+   text-align: center; 
 }
