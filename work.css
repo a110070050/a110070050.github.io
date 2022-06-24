@@ -27,11 +27,11 @@ h1{
 }
 
 h3{
+    padding: 35px 0px 0px
     text-align: center;
 }
 
 h5{
-    padding: 0px 0px 16px;
     text-align: center;
 }
 
@@ -41,63 +41,6 @@ figure{
 
 div a {
     text-decoration: none;  /* 移除超連結底線 */
-}
-
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-     box-sizing: border-box;
-}
-
-.bob-container{
-  margin: 0 auto;
-  padding-left: -2000px;
-  padding-right: 250px;
-}
-
-.bob-row{
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.bob-row:before,.bob-row:after{
-  display: table;
-  content: " ";  
-}
-
-.bob-row:after{
-  clear: both;
-}
-
-.bob-2item{
-  width:50%;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  float:left;
-}
-
-.bob-2item img{
-  width:100%;
-  display: block;
-  margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-  .bob-container {
-    width: 750px;
-  }
-    
-@media (min-width: 992px) {
-  .bob-container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .bob-container {
-    width: 1170px;
-  }
 }
 
 div{
